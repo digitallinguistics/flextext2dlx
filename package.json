@@ -1,0 +1,35 @@
+{
+  "name": "flextext2dlx",
+  "version": "0.1.0",
+  "description": "A JavaScript library for converting FLEx texts to DLx format",
+  "keywords": [
+    "linguistics",
+    "digital linguistics",
+    "DLx",
+    "Fieldworks Language Explorer",
+    "FLEx",
+    "language documentation"
+  ],
+  "homepage": "https://github.com/digitallinguistics/flextext2dlx#readme",
+  "bugs": "https://github.com/digitallinguistics/flextext2dlx/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Daniel W. Hieber",
+    "email": "dwhieb@gmail.com",
+    "url": "https://danielhieber.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitallinguistics/flextext2dlx.git"
+  },
+  "config": {
+    "access": "public"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jasmine JASMINE_CONFIG_PATH=test/jasmine.json"
+  },
+  "devDependencies": {
+    "jasmine": "^3.3.0"
+  }
+}
