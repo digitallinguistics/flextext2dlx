@@ -24,5 +24,12 @@
   },
   "config": {
     "access": "public"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jasmine JASMINE_CONFIG_PATH=test/jasmine.json"
+  },
+  "devDependencies": {
+    "jasmine": "^3.3.0"
   }
 }
