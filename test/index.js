@@ -1,4 +1,4 @@
-// const flextext2dlx = require(`flextext2dlx`);
+const flextext2dlx = require(`../src`);
 const { readFile } = require(`fs`).promises;
 const path         = require(`path`);
 
@@ -12,7 +12,7 @@ describe(`flextext2dlx`, () => {
   });
 
   it(`produces a valid DLx text`, () => {
-    expect(xml).toBeDefined();
+    const dlx = flextext2dlx(xml);
   });
 
 });

@@ -4,7 +4,7 @@
  * @return {Array}
  */
 function flextext2dlx(xml) {
-  return [];
+  return xml;
 }
 
 module.exports = flextext2dlx;
